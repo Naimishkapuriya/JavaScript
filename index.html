@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- <h1>
+        welcome to this javascript
+    </h1>
+    <div id="firstContainer" class="container">
+        <button id="click">
+            click me
+        </button>
+    </div> -->
+
+    <!-- <h1 id="heading">
+        CHNAGE TO LOCATION
+    </h1>
+    <button onclick="changeContent()">click me</button>
+
+    <script>
+        const changeContent = () => {
+            document.getElementById("heading").innerHTML = "WELCOME TO SURAT";
+        }   
+    </script>
+
+    <div id="myP" onmousedown="mouseDown()" onmouseup="mouseUp()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nam modi animi rerum nostrum molestias dolorem dignissimos labore earum asperiores numquam, veniam hic quaerat vero facilis, iusto nesciunt sit fugit.</div>
+    <style cursor: pointer;>
+        
+    </style>
+
+    <script>
+        function mouseDown(){
+            document.getElementById("myP").style.color = "#f8b627";
+        }
+
+        function mouseUp(){
+            document.getElementById("myP").style.color = "red";
+        }
+    </script> -->
+
+    <!-- <div class="main-div">
+        <div>
+            <p>want to know my name ?</p>
+            <div id="showMyName"></div>
+            <br>
+            <button id="btn">click here</button>
+        </div>
+    </div>
+
+    <script>
+        const myName = document.querySelector('#showMyName');
+        const btn = document.querySelector('#btn');
+
+        const showMyName = () => {
+            myName.innerHTML = "Loading......"
+            setTimeout(() => {
+                myName.innerHTML = "naimish kapuriya"
+            }, 1000)
+        }
+
+        btn.addEventListener('click', showMyName);
+
+
+    </script> -->
+
+    <!-- <div class="main-div">
+        <div>
+            <p>want to know my name ?</p>
+            <div id="showMyName"></div>
+            <br>
+            <button id="btn">start</button>
+            <button id="btn1">stop</button>
+        </div>
+    </div>
+
+    <script>
+        const stopNum = document.querySelector('p');
+        const btn = document.querySelector('#btn');
+        const stopInterval = document.querySelector('#btn1');
+        let timeRef;
+        let num = 0;
+          
+        const showMyName = () => {
+            stopNum.innerHTML = 'Loding.......';
+            timeRef = setInterval(() => {
+                stopNum.innerHTML = `${num}`;
+                num++;
+            }, 1000);
+        }
+
+        btn.addEventListener('click', showMyName);
+
+        stopInterval.addEventListener('click', () => {
+            clearInterval(timeRef);
+        })
+
+    </script>  -->
+    <!--     
+<script>
+
+// let name = "Ilya";
+
+// alert( `hello ${1}` ); 
+
+// alert( `hello ${"name"}` ); 
+
+// alert( `hello ${name}` ); 
+
+
+
+
+// let age = prompt('How old are you?', );
+// alert(`i am a ${age}.`);
+
+//</script> -->
+
+    <!-- <script> -->
+    <!-- // let age = prompt('age?', );
+
+// let message = (age < 3) ? 'Hi, baby!' :
+//   (age < 18) ? 'Hello!' :
+//   (age < 47) ? 'Greetings!' :
+//   (age < 100) ? 'good!' :
+//   'What an unusual age!';
+
+// alert( message );
+
+
+// let firstName = null;
+// let lastName = null;
+// let nickName = "Supercoder";
+
+// // shows the first defined value:
+// alert(firstName ?? lastName ?? nickName ?? "Anonymous"); // Supercoder
+
+// let a = 3;
+
+// switch (a) {
+//   case 3:
+//     alert( 'Too small' );
+//     break;
+//   case 4:
+//     alert( 'Exactly!' );
+//     break;
+//   case 5:
+//     alert( 'Too big' );
+//     break;
+//   default:
+//     alert( "I don't know such values" );
+// }
+
+// let arg = prompt("Enter a value?");
+// switch (arg) {
+//   case '0':
+//   case '1':
+//   case '2':
+//     alert( 'One or zero' );
+//     break;
+
+//   case '3':
+//     alert( 'Two' );
+//     break;
+
+//   case '4':
+//     alert( 'Never executes!' );
+//     break;
+//   default:
+//     alert( 'An unknown value' );
+// }
+
+// function checkAge(age) {
+//   if (age >= 18) {
+//     return true;
+//   } else {
+//     return confirm('Do you have permission from your parents?');
+//   }
+// }
+
+// let age = prompt('How old are you?', 18);
+
+// if ( checkAge(age) ) {
+//   alert( 'Access granted' );
+// } else {
+//   alert( 'Access denied' );
+// }
+
+
+function showPrimes(n) {
+
+  for (let i = 2; i < n; i++) {
+    if (!isPrime(i)) continue;
+
+    alert(i);
+  }
+}
+
+function isPrime(n) {
+  for (let i = 2; i < n; i++) {
+    if (n % i == 0) return false;
+  }
+
+  return true;
+}
+//  -->
+
+    <!-- </script> -->
+
+    <!-- ====================== top-left ================== -->
+    <!-- <script>
+    for(let i=1; i<=5; i++ ){
+        for(let j=1; j<=i; j++){
+            document.write("*");
+        }
+        document.write("<br/>")
+    }
+</script> -->
+
+    <!-- ====================== bttom-left ================== -->
+    <!-- <script>
+    for (i=5; i>=1; i--){
+        for(j=1; j<=i; j++){
+            document.write("*");
+        }
+        document.write("<br/>")
+    }
+</script> -->
+
+    <!-- =============top-right====================== -->
+    <!-- <script>
+    for(let i=1; i<=5; i++){
+        for(let k=1; k<=5-i; k++){
+            document.write(" &nbsp; ")
+        }
+        for(let j=1; j<=i; j++){
+            document.write("*");
+        }
+        document.write("<br/>");
+    }
+</script> -->
+    <!-- =============bttom-right====================== -->
+    <!-- <script>
+    for (i=5; i>=1; i--){
+        for(k=5; k>i; k--){
+            document.write("&nbsp; ")
+        }
+        for(j=1; j<=i; j++){
+            document.write("*");
+        }
+        document.write("<br/>")
+    }
+</script> -->
+
+    <!-- ===============top-center======================= -->
+    <!-- <script>
+    for(i=5; i<=1; i++){
+        for(k=1; k>=5-i; k++){
+            document.write("&nbsp; ")
+        }
+        for(j=1; j<=i; j++){
+            document.write("*");
+        }
+        for(l=2; l<=i; l++){
+            document.write("*")
+        }
+        document.write("<br/>");
+    }
+</script> -->
+
+    <!-- <script>
+    var m=1, x=10;
+    for(let i=1; i<=x; i++){
+        for(let k=1; k<=x-i; k++){
+            document.write("&nbsp; ")
+        }
+        for(let j=1; j<=m; j++){
+            document.write("*");
+        }
+        document.write("<br/>")
+        m=m+2;
+    }
+</script> -->
+
+    <script>
+      // let conf = confirm("You must be at least 18 years old to view this content.");
+      // let name = prompt("What's your name?");
+      // let age = prompt("What's your age?");
+
+      // if (age>=18) {
+      // alert("Welcome!");
+      // }
+      // else {
+      // alert("Sorry, you must be at least 18 years old to view this content.");
+
+      // }
+      // let name = "naimish";
+      // console.log(name)
+
+      // console.log('This is a string', { foo: 'bar' }, { bar: 'foo' });
+
+      // var number = 11 * 9;
+      // var color = 'red';
+
+      // console.log('%d %s balloons', number, color);
+      //   console.log(
+      //     "%cThis text is styled!",
+      //     "color: #86CC00; background-color: blue; font-size: 20px; padding: 3px;"
+      //   );
+
+      //
+
+      // function clickHandler() {
+      //     console.count('Click handler called');
+
+      // }
+      // for (var i = 0; i < 3; i++) {
+      //     clickHandler();
+      // }
+
+      // console.dir(document.body);
+      // console.dirxml(document.body);
+      // console.error('Page not found (404)');
+      // console.group('Fetching Data');
+      // console.info('Hello Treehouse');
+
+      // function animationUI() {
+      //     console.profile('Animating');
+
+      //     // Animate something...
+
+      //     console.profileEnd();
+      // }
+
+      // var data = [
+      //     {first_name: 'Matt', last_name: 'West', occupation: 'Programmer'},
+      //     {first_name: 'Vince', last_name: 'Vaughn', occupation: 'Actor'},
+      //     {first_name: 'Larry', last_name: 'Page', occupation: 'CEO'}
+      // ];
+
+      // console.table(data);
+
+      // console.time('Draw frame');
+
+      // Execute some code...
+
+      // console.timeEnd('Draw frame');
+
+      // console.timeline('Google Search');
+    </script>
+  </body>
+</html>
