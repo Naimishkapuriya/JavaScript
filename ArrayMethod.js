@@ -18,9 +18,9 @@
 // console.log(fruits[fruits.length-1]) // Mango
 
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-const cars = ["BMW", "Mercedes", "Porsche "]
-const color = ["red", "gerrn", "Yellow"]
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const cars = ["BMW", "Mercedes", "Porsche "]
+// const color = ["red", "gerrn", "Yellow"]
 
 // =========JavaScript Array toString()====
 // Array ne string ma convert kare
@@ -133,3 +133,6 @@ const color = ["red", "gerrn", "Yellow"]
 // (3) pachi na badha element delete kare 
 // console.log(fruits);              // [ 'Banana', 'Orange', 'Apple', 'Mango' ]
 // console.log(fruits.slice(2,3));   // [ 'Apple' ]
+
+
+// ==========Array of object================
