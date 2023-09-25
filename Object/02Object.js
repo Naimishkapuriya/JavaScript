@@ -21,42 +21,58 @@ const obj4 = {5:"a", 6:"b"};
 
 
 // =========Array ka object ==============
-const trinderUser = {}
-trinderUser.id = "123abc"
-trinderUser.name = "sammy"
-trinderUser.isloading = false
+// const trinderUser = {}
+// trinderUser.id = "123abc"
+// trinderUser.name = "sammy"
+// trinderUser.isloading = false
 
-const users = [
-    {
-        id: 1,
-        emali : "n@gmail.com"
-    },
-    {
-        id: 1,
-        emali : "n@gmail.com"
-    },
-    {
-        id: 1,
-        emali : "n@gmail.com"
-    },
-    {
-        id: 1,
-        emali : "n@gmail.com"
-    },
-    {
-        id: 1,
-        emali : "n@gmail.com"
-    }
-]
+// const users = [
+//     {
+//         id: 1,
+//         emali : "n@gmail.com"
+//     },
+//     {
+//         id: 1,
+//         emali : "n@gmail.com"
+//     },
+//     {
+//         id: 1,
+//         emali : "n@gmail.com"
+//     },
+//     {
+//         id: 1,
+//         emali : "n@gmail.com"
+//     },
+//     {
+//         id: 1,
+//         emali : "n@gmail.com"
+//     }
+// ]
 
-users[1].emali
-console.log(trinderUser);   
+// users[1].emali
+// console.log(trinderUser);   
 // ===={ id: '123abc', name: 'sammy', isloading: false }
-console.log(Object.keys(trinderUser));
+// console.log(Object.keys(trinderUser));
 // === [ 'id', 'name', 'isloading' ]
 
-console.log(Object.values(trinderUser));
+// console.log(Object.values(trinderUser));
 // === [ '123abc', 'sammy', false ]
-console.log(Object.entries(trinderUser));
+// console.log(Object.entries(trinderUser));
 // === [ [ 'id', '123abc' ], [ 'name', 'sammy' ], [ 'isloading', false ] ]
 
+// ===================Object de-structure and JSON API intro==========
+
+
+// const course = {
+//     couresname : " js in hindi",
+//     price : "999",
+//     couresInstructor : "naimish",
+// }
+// ===normal ============
+// const {couresInstructor} = course
+// console.log(couresInstructor);  // naimish
+
+// object ma name change karva mate 
+// (couresInstructor) mathi (instructor) name change karu 
+// const {couresInstructor : instructor} = course
+// console.log(instructor);   // naimish
