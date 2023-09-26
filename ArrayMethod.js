@@ -17,7 +17,7 @@
 // console.log(fruits[0])  // Banana
 // console.log(fruits[fruits.length-1]) // Mango
 
-
+// ================================================================================
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // const cars = ["BMW", "Mercedes", "Porsche "]
 // const color = ["red", "gerrn", "Yellow"]

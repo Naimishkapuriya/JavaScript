@@ -1,3 +1,7 @@
+// =================inpoten point===================
+// ====api 
+// rendomuser me api 
+
 // =========================variables====================
 // ================3 type========
 // (1)==== var
@@ -15,6 +19,32 @@
 
 // =====================Type Conversions==============
 // java.html page
+
+// Conversions type ======
+// "33" => 33
+// "33abc" => NaN
+// true => 1 , false=> 0
+
+// ====Number=====
+// let score = 20;
+// console.log(typeof score); // number
+// console.log(typeof (score)); // number
+
+// =====String=====
+// let score = "20";
+// console.log(typeof score);  // string
+
+// string mathi number conversion 
+// let score = "20"
+// let value = Number(score);
+// console.log(typeof value);  // number
+
+// string to number conversion  is confusing =========================
+
+// let value = 3;
+// let negValue = -value;
+// console.log(negValue); // -3
+
 
 // ====================loops=========
 // for loops========
@@ -136,3 +166,33 @@
 // var x = null;                                   // <==== null
 // var x;                                          // <==== undefind
 
+
+// =============================Coercion and Type Conversion  ==========================
+// ============implicit==========================
+// var a= true + false;  //====  1
+// var a= 12/"6";  //=== 2
+// var a='number' + 15 + 3;  // === number153
+// var a= [1] > null;     // === true
+// var a= "foo" + + "bar";    // fooNaN
+// var a= 'true' == true; // === false
+// var a= false == 'false';  // === false
+// var a= null == '';    // === false
+// var a= !!"false" == !!"true";  //=== true
+// var a= ['x'] == 'x';  // === true
+// var a= [] + null + 1;  // === null1
+// var a= [1,2,3] == [1,2,3] // == false
+// var a= {}+[]+{}+[1];  // === [object Object][object Object]1
+// var a= !+[]+[]+![];  // === truefalse
+// var a= new Date(0) -0;  // ===  0
+// var a= new Date(0) + 0; // Thu Jan 01 1970 05:30:00 GMT+0530 (India Standard Time)0
+// console.log(a);
+
+// ===============EXPLICIT======================
+
+// var a= String(123);  // 123
+// var a= String(-12.3) // -12.3
+// var a= String(null)  // null
+// var b= String(undefined)  // undefined
+// var c= String(true) // true
+// var d= String(false) // false
+// console.log(a, b,c,d);
