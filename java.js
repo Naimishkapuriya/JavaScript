@@ -45,45 +45,6 @@
 // let negValue = -value;
 // console.log(negValue); // -3
 
-
-// ====================loops=========
-// for loops========
-
-// for (let index=0; index<20; index++){
-//     const element = index;
-//     console.log(element);
-// }
-
-// for (let i=1; i<10; i++){
-//     console.log(i);
-// }
-
-// while================
-// first time pan condition chek kare pache alg vadhe
-
-// let i =0;
-// while (i <3){
-//     console.log(i);
-//     i++;
-// }
-
-// let i=3;
-// while(i){
-//     console.log(i);
-//     i--;
-// }
-
-// do while=======
-// first time codition chek na kare
-// codition true hoi to second time codition chek kare
-
-// let i=0;
-// do{
-//     console.log(i);
-//     i++;
-// }while(i <= 10);
-
-
 // the switch statement================
 
 // switch(expression or valuse) {
