@@ -232,7 +232,7 @@ const myObject = {
 // ===================forEach===============
 
 // forEach with function ============
-const coding = ["js", "ruby", "java", "python", "cpp"]
+// const coding = ["js", "ruby", "java", "python", "cpp"]
 // coding.forEach(function(item){
 //     console.log(item);
 // })
@@ -245,6 +245,44 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // forEach with function Arrow   =====
 
-coding.forEach ((val) => {
-    console.log(val);
-})
+// coding.forEach ((val) => {
+//     console.log(val);
+// })
+
+// function printMe (val){
+//     console.log(val);
+// }
+
+// coding.forEach(printMe)
+
+//==================== item, index, arr ====================
+
+// item=== js , ruby, java, python,cpp
+// index === 0,1,2,3,4
+// arr === [ 'js', 'ruby', 'java', 'python', 'cpp' ]
+
+// coding.forEach((item, index, arr) => {
+//     console.log(item, index, arr);
+// })
+// ex===
+// js 0 [ 'js', 'ruby', 'java', 'python', 'cpp' ]
+// ruby 1 [ 'js', 'ruby', 'java', 'python', 'cpp' ]
+// java 2 [ 'js', 'ruby', 'java', 'python', 'cpp' ]
+// python 3 [ 'js', 'ruby', 'java', 'python', 'cpp' ]
+// cpp 4 [ 'js', 'ruby', 'java', 'python', 'cpp' ]
+
+
+// const myCoading = [
+//     {
+//         fname : "naimish",
+//         lname : "kapuriya"
+//     },
+//     {
+//         fname : "smit",
+//         lname : "ladani"
+//     },
+//     {
+//         fname : "smit",
+//         lname : "thummer"
+//     },
+// ]
