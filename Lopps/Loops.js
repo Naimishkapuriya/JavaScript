@@ -194,12 +194,12 @@
 
 // for in loops============
 
-const myObject = {
-    js : "javascript",
-    cpp : "c++",
-    rb : "ruby",
-    swift : "swift by app"
-} 
+// const myObject = {
+//     js : "javascript",
+//     cpp : "c++",
+//     rb : "ruby",
+//     swift : "swift by app"
+// } 
 // object in key darshve che 
 // for (const key in myObject){
 //    console.log(key); 
