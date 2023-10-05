@@ -74,3 +74,22 @@
 // var b;
 // b = "value is" + (a == 500 ? "true" : "flase");
 // console.log(b);
+
+
+// function exmpal(a){
+//     return a<=10 ? console.log("less then 10")
+//     : a>=20 ? console.log("gthen 20")
+//     :console.log("none")
+// }
+// exmpal(50)
+
+
+// function exmpal(a){
+//     if(a<=10){
+//         console.log("less then 10");
+//     }else if(a<=20){
+//         console.log("greetar then 20");
+//     }else{
+//         console.log("none");
+//     }
+// }exmpal(21)
