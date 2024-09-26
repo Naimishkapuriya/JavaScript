@@ -353,6 +353,12 @@
 //     var tableOf = 12;
 //     console.log(tableOf + " * " + num + " = " + tableOf * num);
 // }
+
+// =======================TypeScript Type Aliases==========================
+
+// const { data: blogDetail } = await
+// data: bloddetail name change ne (Aliases) name kevay
+
 // =======================function=============================
 
 // var a = 20;
